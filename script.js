@@ -3,7 +3,10 @@ tabuada = Number(tabuada)
 var resposta = ""
 
 for(i=0;i<11;i=i+1){
-    resposta = resposta + tabuada +"x" + i + "=" + (tabuada*i) + " "
+    p = document.createElement("p")
+    p.innerHTML = tabuada +"x" + i + "=" + (tabuada*i) + "\n"
+    document.querySelector("#pao").appendChild(p)
 }
 
-alert(resposta)
+//alert(resposta)
+

@@ -3,4 +3,10 @@ body {
 }
 p {
     color: blanchedalmond;
+    font-size: 1.8em;
+}
+.container {
+    background-color: rgb(61, 117, 54);
+    display: flex;
+    justify-content: center;
 }
